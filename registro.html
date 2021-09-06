@@ -1,0 +1,35 @@
+<html>
+ <head>
+   <script async src="https://www.google.com/recaptcha/api.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link href="registro.css" rel="stylesheet" type="text/css" />
+	<Title>Registro</title>
+	<link href="https:/ href = " https://fonts.gstatic.com ">
+	<link rel="preconnect " href="https://fonts/fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap " rel="stylesheet ">
+ </head>
+ <body>
+   <header>
+     <link  rel="icon "  href="favicon.png "/> 
+    <p>DREMILIO</p>
+    
+    </header>
+	
+	<form action="registro.php" method="POST">
+		<div class="ui">
+			<input id="nom" type="text" name="nombre"  placeholder="Nombre">  <br/><br/>
+			<input id="ape" type="text" name="ape" placeholder="Apellidos">  <br/><br/>
+			<input id="usua" type="text" name="nomus" placeholder="Nombre de usuario">  <br/><br/>
+			<input id="email"  type="text" name="email" placeholder="E-Mail"> <br/><br/>
+			<input id="pass" type="password" name="password" placeholder="Contraseña">  <br/><br/>
+      <div class="g-recaptcha" data-sitekey="Clave del sitio"></div>
+      <input name="datos" type="text">
+<input type="submit">
+			Acepto los Términos y Condiciones: <input id="term" type="checkbox">
+      
+       <br/><br/>
+			<button id="bregi" type="submit" name= "enviar"> CONTINUAR </button>
+		</div>
+	</form>
+  </body>
+</html>
